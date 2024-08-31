@@ -188,12 +188,12 @@ main {
     font-size: 0.9rem;
     line-height: 24px;
     color: var(--grayish-blue);
+    margin-bottom: 1.5rem;
   }
 
   .avatar-div {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
   }
 
   .avatar-text > h2 {
