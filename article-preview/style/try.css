@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  height: 10rem;
+  width: 15rem;
+  margin: 10rem auto;
+  background-color: black;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: calc();
+  left: 3.5rem;
+  bottom: 0;
+  background-color: black;
+  transform: rotateZ(45deg);
+}
