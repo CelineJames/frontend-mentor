@@ -154,9 +154,9 @@ main {
 @media only screen and (min-width: 800px) {
   .container {
     display: flex;
-    min-width: 800px;
-    max-width: 1200px;
-    min-height: 400px;
+    min-width: 600px;
+    max-width: 1000px;
+    max-height: 350px;
   }
 
   .image {
@@ -177,16 +177,16 @@ main {
 
   .content > h1 {
     font-weight: 700;
-    font-size: 2rem;
-    line-height: 40px;
+    font-size: 1.6rem;
+    line-height: 35px;
     color: var(--dark-grayish-blue);
     margin-bottom: 1rem;
   }
 
   .content > p {
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 33px;
+    font-size: 1rem;
+    line-height: 28px;
     color: var(--grayish-blue);
     margin-bottom: 2rem;
   }
